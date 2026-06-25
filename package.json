@@ -1,0 +1,22 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "Payment processing service for order management",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
