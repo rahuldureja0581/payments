@@ -40,5 +40,3 @@ function formatCurrency(amount) {
 }
 
 module.exports = { applyPaymentCap, calculateOrderTotal, formatCurrency };
-
-module....
